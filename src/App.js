@@ -1,4 +1,4 @@
-// src/App.js
+
 import React from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Dashboard from './Components/Dashboard/Dashboard'

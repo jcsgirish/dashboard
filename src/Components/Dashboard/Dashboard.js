@@ -1,4 +1,4 @@
-// src/components/Dashboard.js
+
 import React from 'react';
 import AlertTimeChart from '../AlertTimeChart/AlertTimeChart';
 import AlertbarChart from '../AlertbarChart/AlertbarChart';

@@ -1,4 +1,4 @@
-// src/components/AlertsOverTimeChart.js
+
 import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 import './AlertTimeChart.Styles.css';
@@ -62,7 +62,6 @@ const AlertTimeChart = ({ data }) => {
       });
     }
 
-    // Cleanup function to destroy the chart when the component unmounts
     return () => {
       if (chartInstance.current) {
         chartInstance.current.destroy();
